@@ -1,0 +1,28 @@
+{
+  "name": "personalapi",
+  "version": "1.0.0",
+  "description": "personal api for different purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgonca/personalApi.git"
+  },
+  "author": "Roberto Gonzalez Camejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgonca/personalApi/issues"
+  },
+  "homepage": "https://github.com/rgonca/personalApi#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
